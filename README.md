@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Json-Server
+
+local server in use is [json-server](https://www.npmjs.com/package/json-server)
+Run `pnm run server` to start the json server on `http://localhost:5000`. this is the end point for retrieve data
