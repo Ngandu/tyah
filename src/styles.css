@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.container{
+    width: 500px;
+    background-color: #faf4e9;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.btn{
+    color: #ddd;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 500px);
+}
+
+.dishContainer{
+    width: 600px;
+    margin: 20px auto;
+    background-color: #faf4e9;
+}
+
+.dishContainer img{
+    width: 100%;
+}
+
+.dishContainer h3{
+    font-size: 36px;
+    color: #ad1d24;
+    padding: 10px;
+}
+
+.description{
+    color: #222;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 10px;
+}
+
+.price{
+    padding: 10px;
+    font-size: 36px;
+    color: #ad1d24;
+    font-weight: 200;
+}
+
+.dishContainer button{
+    background-color: #ad1d24;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px;
+    text-transform: uppercase;
+}
